@@ -1,23 +1,20 @@
 import React from 'react'
 import Header from './components/Header'
-import Calculator from './components/Calculator'  // Fixed the typo here
+import Calculator from './components/Calculator'
 import Results from './components/Results'
 
 const App = () => {
   return (
-    <div className="w-[1200px] flex mx-auto">
-      <div>
-      <Header/>
-      <div className='flex gap-10'>
-        <div>
-<Calculator/>
+    <div className="max-w-[1200px] mx-auto px-4 py-8">
+      <Header />
+      <div className='md:flex md:gap-10'>
+        <div className='flex-1'>
+          <Calculator />
         </div>
-        <div>
-<Results/>
+        <div className='flex-1'>
+          <Results />
         </div>
       </div>
-      </div>
-      
     </div>
   )
 }

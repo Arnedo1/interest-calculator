@@ -119,7 +119,7 @@ const Calculator = () => {
     }
 
     return (
-        <div>
+        <div className='flex justify-center items-center flex-col'>
             <div className='h-[410px] px-6 py-4 w-[350px] bg-gray-900 border-[0.5px] border-gray-400 rounded-t-xl'>
                 <div>
                     <p className='text-gray-200 text-sm mb-1'>Currency:</p>

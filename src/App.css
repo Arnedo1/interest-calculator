@@ -3,3 +3,10 @@
 body {
   background-color:rgb(40, 40, 40) ;
 }
+
+@media (max-width: 768px) {
+  .app-container {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+}

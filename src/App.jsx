@@ -5,6 +5,7 @@ import Results from './components/Results'
 
 const App = () => {
   return (
+    <div className="app-container">
     <div className="max-w-[1200px] mx-auto px-4 py-8">
       <Header />
       <div className='md:flex md:gap-10'>
@@ -15,6 +16,7 @@ const App = () => {
           <Results />
         </div>
       </div>
+    </div>
     </div>
   )
 }

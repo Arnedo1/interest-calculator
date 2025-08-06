@@ -4,8 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: '/interest-calculator/',
-  build: {
-    outDir: 'dist'
-  }
+  base: '/interest-calculator/'
 })

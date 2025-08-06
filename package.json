@@ -7,7 +7,7 @@
   "homepage": "https://arnedo1.github.io/interest-calculator",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
